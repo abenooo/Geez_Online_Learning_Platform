@@ -1,12 +1,14 @@
 import React from "react";
 import "./header.css";
 // import { BiChevronRight } from "react-icons/bi";
+import { BiChevronRight } from "react-icons/bi";
 function Header() {
   return (
     <div className="header">
       <div className="header_left">
         {/* <BiChevronRight /> */}
         <div>
+            <BiChevronRight />
           <p className="language">EN</p>
         </div>
         <div>
