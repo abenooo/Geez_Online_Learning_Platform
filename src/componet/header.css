@@ -1,5 +1,5 @@
 .header {
-    width: 1923px;
+    width: 100%;
     height: 65px;
     background-color: #161D61;
 }
@@ -10,5 +10,17 @@
     height: 25.32px;
     left: 305px;
     top: 20px;
-    background-color: aliceblue;
+    color: white;
+    /* background-color: aliceblue; */
+}
+
+.email {
+    width: 169px;
+    height: 15px;
+    top: 26px;
+    left: 541px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 14.52px;
+    font-size: 12px;
 }
