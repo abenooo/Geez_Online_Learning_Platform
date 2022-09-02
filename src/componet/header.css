@@ -3,3 +3,12 @@
     height: 65px;
     background-color: #161D61;
 }
+
+.header_left {
+    position: relative;
+    width: 406px;
+    height: 25.32px;
+    left: 305px;
+    top: 20px;
+    background-color: aliceblue;
+}
