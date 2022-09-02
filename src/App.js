@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './componet/Header';
+import Navbar from './componet/Navbar';
 
 function App() {
   return (
     <div className="App">
-     <h3>Hello react again nice meet to you</h3>
+      <Header />
+      <Navbar />
     </div>
   );
 }
