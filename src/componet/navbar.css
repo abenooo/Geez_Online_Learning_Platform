@@ -1,0 +1,42 @@
+.navbar {
+    position: relative;
+    height: 100px;
+    width: 63%;
+    left: auto;
+    margin-left: 290px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo_txt {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Geez */
+
+.logo {
+    position: absolute;
+    width: 92px;
+    height: 44px;
+    left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.search {
+    /* search */
+    position: relative;
+    width: 600px;
+    height: 40px;
+    left: 300px;
+    top: -70px;
+    background: rgba(217, 217, 217, 0.37);
+    border-radius: 40px;
+}
