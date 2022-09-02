@@ -1,21 +1,24 @@
 import React from "react";
 import "./header.css";
-// import { BiChevronRight } from "react-icons/bi";
-import { BiChevronRight } from "react-icons/bi";
+import { BiChevronDown, BiPhone, BiMailSend } from "react-icons/bi";
 function Header() {
   return (
     <div className="header">
       <div className="header_left">
         {/* <BiChevronRight /> */}
-        <div>
-            <BiChevronRight />
-          <p className="language">EN</p>
+        <div className="language">
+          <p>EN</p>
+          <BiChevronDown
+            style={{ color: "white", marginTop: "12px", paddingLeft: "10px" }}
+          />
         </div>
-        <div>
-          <p className="email">Email Adddres</p>
+        <div className="email">
+          <BiMailSend style={{marginTop:'15px', marginRight: "10px" }} />
+          <p>abenezerkifle000@gmail.com</p>
         </div>
-        <div>
-          <p className="phone">Phone</p>
+        <div className="phone">
+          <BiPhone style={{ marginTop: "13px", marginRight: "10px" ,marginLeft:'20px' }} />
+          <p>+251910979060</p>
         </div>
       </div>
 

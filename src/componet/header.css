@@ -24,6 +24,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 14.52px;
     font-size: 12px;
+    display: flex;
 }
 
 .phone {
@@ -35,6 +36,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 14.52px;
     font-size: 12px;
+    display: flex;
+    margin-left: 10px;
 }
 
 .language {
@@ -45,4 +48,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 14.52px;
     font-size: 12px;
+    display: flex;
+}
+
+.lang_icon {
+    top: 20px;
 }
