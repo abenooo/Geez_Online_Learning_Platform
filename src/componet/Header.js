@@ -17,7 +17,7 @@ function Header() {
           <p>abenezerkifle000@gmail.com</p>
         </div>
         <div className="phone">
-          <BiPhone style={{ marginTop: "13px", marginRight: "10px" ,marginLeft:'20px' }} />
+          <BiPhone style={{ marginTop: "13px", marginRight: "10px" ,marginLeft:'10px' }} />
           <p>+251910979060</p>
         </div>
       </div>
