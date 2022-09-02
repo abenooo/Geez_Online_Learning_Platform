@@ -9,7 +9,7 @@
     position: relative;
     width: 406px;
     height: 25.32px;
-    left: 305px;
+    left: 15%;
     top: 10px;
     color: white;
     /* background-color: aliceblue; */
@@ -49,4 +49,19 @@
     line-height: 14.52px;
     font-size: 12px;
     display: flex;
+}
+
+.header_right {
+    display: flex;
+    position: absolute;
+    width: 406px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    color: white;
+    align-self: flex-end;
+}
+
+.header_right_icon {
+    margin-left: 10px;
 }

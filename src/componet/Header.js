@@ -1,9 +1,11 @@
 import React from "react";
 import "./header.css";
 import { BiChevronDown, BiPhone, BiMailSend } from "react-icons/bi";
+import { RiTwitterLine,RiInstagramLine,RiFacebookCircleLine, RiPinterestLine,RiLinkedinLine,RiRedditLine } from "react-icons/ri";
 function Header() {
   return (
     <div className="header">
+        {/* left header */}
       <div className="header_left">
         {/* <BiChevronRight /> */}
         <div className="language">
@@ -21,8 +23,15 @@ function Header() {
           <p>+251910979060</p>
         </div>
       </div>
-
-      <div className="header_right"></div>
+{/* right header */}
+      <div className="header_right">
+      <RiTwitterLine className="header_right_icon " />
+      <RiInstagramLine className="header_right_icon "/>
+      <RiFacebookCircleLine className="header_right_icon "/> 
+      <RiPinterestLine className="header_right_icon "/>
+      <RiLinkedinLine className="header_right_icon "/>
+      <RiRedditLine className="header_right_icon "/>
+      </div>
     </div>
   );
 }
