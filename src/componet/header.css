@@ -5,6 +5,7 @@
 }
 
 .header_left {
+    display: flex;
     position: relative;
     width: 406px;
     height: 25.32px;
@@ -19,6 +20,27 @@
     height: 15px;
     top: 26px;
     left: 541px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 14.52px;
+    font-size: 12px;
+}
+
+.phone {
+    width: 169px;
+    height: 15px;
+    top: 26px;
+    left: 387px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 14.52px;
+    font-size: 12px;
+}
+
+.language {
+    width: 169px;
+    height: 15px;
+    top: 26px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 14.52px;
